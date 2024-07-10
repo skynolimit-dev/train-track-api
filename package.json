@@ -7,7 +7,7 @@
     "dev": "./.dev.sh",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "fly deploy && fly logs" 
+    "deploy": "fly deploy  --ha=false && fly logs" 
   },
   "author": "Mike Wagstaff",
   "license": "ISC",
